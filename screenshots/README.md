@@ -7,9 +7,13 @@ From networking to the final running application, each screenshot highlights a s
 
 The foundation of the project — configuring the VPC, subnets, and route tables to enable secure communication between tiers.
 
+
 ![VPC Dashboard](./VPC_Dashboard.png)
+
 ![Subnets](./subnet.png)
+
 ![Private Route Tables](./Private_RouteTable.png)
+
 ![Public Route Tables](./Public_RouteTable.png)
 
 ---
