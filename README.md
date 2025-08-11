@@ -1,4 +1,4 @@
-### AWS Three-Tier Web Architecture Deployment
+## AWS Three-Tier Web Architecture Deployment
 A fully deployed, secure, and scalable three-tier application on AWS, built from scratch.
 
 📌 Overview
