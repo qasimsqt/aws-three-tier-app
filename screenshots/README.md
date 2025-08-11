@@ -50,6 +50,24 @@ DB Subnet Group: Ensures database redundancy and availability.
 
 ---
 
+All Subnets (Can't show them Tier wise)
+![Subnet Groups](./subnet.png)
+
+All NAT-Gateways
+![NAT Gateway](./NGW.png)
+
+All IGW-Gateways
+![IGW Gateway](./IGW.png)
+
+ALL Load Balancer
+![Load Balancer](./All_LB.png)
+
+ALL Route Tables
+![Public Route Tables](./Public_RouteTable.png)
+![Private Route Tables](./Private_RouteTable.png)
+
+---
+
 ## Final Working Application
 A visual wrap-up showing the completed architecture and the live application.
 
