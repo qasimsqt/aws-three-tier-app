@@ -71,6 +71,9 @@ DB Subnet Group: Ensures database redundancy and availability.
 ## Final Working Application
 A visual wrap-up showing the completed architecture and the live application.
 
+3-Tier-App Architect
+![Architecture](./3TierArch.png)
+
 CloudCraft Architecture Diagram: 3D view of the deployed AWS infrastructure.
 ![CloudCraft Architecture](./Web_App_Reference_Architecture.png)
 
