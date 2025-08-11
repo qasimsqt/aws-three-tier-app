@@ -43,25 +43,25 @@ Created a VPC with 5 subnets (public & private).
 
 Attached an Internet Gateway and configured route tables.
 
-Web Tier
+### Web Tier
 
 Launched EC2 instances in public subnets.
 
 Configured an Internet-facing ALB.
 
-App Tier
+### App Tier
 
 Launched EC2 instances in private subnets.
 
 Connected via an internal ALB from the web tier.
 
-Database Tier
+### Database Tier
 
 Created an RDS MySQL instance in private subnets.
 
 Restricted access to App tier only.
 
-Security
+### Security
 
 Configured SGs to allow only necessary traffic (HTTP/HTTPS/MySQL).
 
@@ -76,6 +76,3 @@ Difference between internal and internet-facing load balancers.
 How private subnets secure backend services.
 
 Troubleshooting security group & networking issues.
-
-📜 License
-MIT License — free to use and adapt.
