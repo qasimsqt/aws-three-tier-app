@@ -27,6 +27,14 @@ Cloudcraft – Architecture diagram
 
 # Architecture Diagram
 
+3-Tier-App Architect
+![Architecture](./screenshots/3TierArch.png)
+
+CloudCraft Architecture Diagram: 3D view of the deployed AWS infrastructure.
+![CloudCraft Architecture](./screenshots/Web_App_Reference_Architecture.png)
+
+
+
 # Deployment Steps
 Networking
 
