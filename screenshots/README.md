@@ -5,9 +5,10 @@ Below are the key screenshots documenting my AWS Three-Tier Web Architecture dep
 ---
 
 ## Networking Layer
-![VPC Dashboard](./vpc-dashboard.png)
-![Subnets](./subnets-list.png)
-![Route Tables](./route-tables.png)
+![VPC Dashboard](./VPC_Dashboard.png)
+![Subnets](./subnet.png)
+![Private Route Tables](./Private_RouteTable.png)
+![Public Route Tables](./Public_RouteTable.png)
 
 ---
 
@@ -26,12 +27,13 @@ Below are the key screenshots documenting my AWS Three-Tier Web Architecture dep
 ---
 
 ## Database Tier
-![RDS Dashboard](./rds-dashboard.png)
-![DB Subnet Group](./db-subnet-group.png)
+![RDS Dashboard](./RDS_DB.png)
+![DB Subnet Group](./RDS_SubnetGroup.png)
 ![DB Security Group](./db-sg.png)
 
 ---
 
 ## Final Working Application
-![CloudCraft Architecture](./cloudcraft-architecture.png)
-![Website Running](./website-running.png)
+![CloudCraft Architecture](./Web App Reference Architecture.png)
+![Website Running](./Website_page_1.png)
+![Website Running](./Website_page_2.png)
