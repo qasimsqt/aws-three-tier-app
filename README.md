@@ -1,7 +1,7 @@
 ## AWS Three-Tier Web Architecture Deployment
 A fully deployed, secure, and scalable three-tier application on AWS, built from scratch.
 
-📌 Overview
+# Overview
 This project demonstrates the deployment of a three-tier architecture consisting of:
 
 Web Tier – Internet-facing EC2 instances behind a public Application Load Balancer.
@@ -10,7 +10,7 @@ App Tier – Private EC2 instances behind an internal Load Balancer.
 
 Database Tier – Amazon RDS MySQL instance in private subnets.
 
-🛠 Services Used
+# Services Used
 Amazon EC2 – Web and App tiers
 
 Elastic Load Balancing – Public & internal load balancers
@@ -25,9 +25,9 @@ IAM – Role-based access control
 
 Cloudcraft – Architecture diagram
 
-📂 Architecture Diagram
+# Architecture Diagram
 
-🚀 Deployment Steps
+# Deployment Steps
 Networking
 
 Created a VPC with 5 subnets (public & private).
@@ -58,10 +58,10 @@ Configured SGs to allow only necessary traffic (HTTP/HTTPS/MySQL).
 
 Used IAM roles for EC2 and Cloudcraft integration.
 
-📸 Screenshots
+# Screenshots
 See /screenshots for the running application and AWS console views.
 
-📚 Lessons Learned
+# Lessons Learned
 Difference between internal and internet-facing load balancers.
 
 How private subnets secure backend services.
