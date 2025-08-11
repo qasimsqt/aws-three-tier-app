@@ -57,7 +57,7 @@ DB Subnet Group: Ensures database redundancy and availability.
 ![NAT Gateway](./NGW.png)
 
 ## All IGW-Gateways
-![IGW Gateway](./IGW.png)
+![IGW Gateway](./igw.png)
 
 ## ALL Load Balancer
 ![Load Balancer](./All_LB.png)
