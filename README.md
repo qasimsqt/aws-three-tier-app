@@ -36,7 +36,8 @@ CloudCraft Architecture Diagram: 3D view of the deployed AWS infrastructure.
 
 
 # Deployment Steps
-Networking
+
+### Networking
 
 Created a VPC with 5 subnets (public & private).
 
