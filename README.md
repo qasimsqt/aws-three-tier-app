@@ -3,7 +3,8 @@
 [![AWS](https://img.shields.io/badge/Cloud-AWS-orange?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
 [![Markdown](https://img.shields.io/badge/Format-Markdown-blue?logo=markdown)](https://www.markdownguide.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![GitHub Repo stars](https://img.shields.io/github/stars/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME?style=social)](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME)
+[![GitHub Repo stars](https://img.shields.io/github/stars/qasimsqt/aws-three-tier-app?style=social)](https://github.com/qasimsqt/aws-three-tier-app)
+
 
 A fully deployed, secure, and scalable three-tier application on AWS, built from scratch.
 
