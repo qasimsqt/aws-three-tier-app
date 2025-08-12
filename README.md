@@ -1,78 +1,80 @@
-## AWS Three-Tier Web Architecture Deployment
+# AWS Three-Tier Web Architecture Deployment
+
 A fully deployed, secure, and scalable three-tier application on AWS, built from scratch.
 
-# Overview
-This project demonstrates the deployment of a three-tier architecture consisting of:
+---
 
-Web Tier – Internet-facing EC2 instances behind a public Application Load Balancer.
+## 📌 Overview
+This project demonstrates the deployment of a **three-tier architecture** consisting of:
 
-App Tier – Private EC2 instances behind an internal Load Balancer.
+- **Web Tier** – Internet-facing EC2 instances behind a public Application Load Balancer (ALB).
+- **App Tier** – Private EC2 instances behind an internal Load Balancer.
+- **Database Tier** – Amazon RDS MySQL instance in private subnets.
 
-Database Tier – Amazon RDS MySQL instance in private subnets.
+---
 
-# Services Used
-Amazon EC2 – Web and App tiers
+## 🛠 Services Used
 
-Elastic Load Balancing – Public & internal load balancers
+- **Amazon EC2** – Web and App tiers
+- **Elastic Load Balancing (ALB)** – Public & internal load balancers
+- **Amazon RDS (MySQL)** – Managed relational database
+- **Amazon VPC** – Custom networking with 5 subnets (public & private)
+- **Security Groups & NACLs** – Network security
+- **IAM** – Role-based access control
+- **Cloudcraft** – Architecture diagram design
 
-Amazon RDS (MySQL) – Managed relational database
+---
 
-Amazon VPC – Custom networking, 5 subnets (public & private)
+## 🖼 Architecture Diagram
 
-Security Groups & NACLs – Network security
-
-IAM – Role-based access control
-
-Cloudcraft – Architecture diagram
-
-# Architecture Diagram
-
-3-Tier-App Architect
+**3-Tier Application Architecture**
 ![Architecture](./screenshots/3TierArch.png)
 
-CloudCraft Architecture Diagram: 3D view of the deployed AWS infrastructure.
+**CloudCraft 3D Architecture View**
 ![CloudCraft Architecture](./screenshots/Web_App_Reference_Architecture.png)
 
+---
 
+## 🚀 Deployment Steps
 
-# Deployment Steps
+### 1. Networking
+- Created a VPC with **5 subnets** (public & private).
+- Attached an **Internet Gateway** and configured **route tables**.
 
-### Networking
+### 2. Web Tier
+- Launched EC2 instances in **public subnets**.
+- Configured an **Internet-facing ALB**.
 
-Created a VPC with 5 subnets (public & private).
+### 3. App Tier
+- Launched EC2 instances in **private subnets**.
+- Connected via an **internal ALB** from the web tier.
 
-Attached an Internet Gateway and configured route tables.
+### 4. Database Tier
+- Created an **RDS MySQL** instance in **private subnets**.
+- Restricted access to **App tier only**.
 
-### Web Tier
+### 5. Security
+- Configured **Security Groups** to allow only necessary traffic (HTTP, HTTPS, MySQL).
+- Used **IAM roles** for EC2 and Cloudcraft integration.
 
-Launched EC2 instances in public subnets.
+---
 
-Configured an Internet-facing ALB.
+## 📂 Screenshots
+See the [`/screenshots`](./screenshots) folder for:
+- Running application views
+- AWS Console screenshots
+- Architecture diagrams
 
-### App Tier
+---
 
-Launched EC2 instances in private subnets.
+## 📚 Lessons Learned
+- Difference between **internal** and **internet-facing** load balancers.
+- How **private subnets** secure backend services.
+- Troubleshooting **Security Group** & **networking issues** effectively.
 
-Connected via an internal ALB from the web tier.
+---
 
-### Database Tier
-
-Created an RDS MySQL instance in private subnets.
-
-Restricted access to App tier only.
-
-### Security
-
-Configured SGs to allow only necessary traffic (HTTP/HTTPS/MySQL).
-
-Used IAM roles for EC2 and Cloudcraft integration.
-
-# Screenshots
-See /screenshots for the running application and AWS console views.
-
-# Lessons Learned
-Difference between internal and internet-facing load balancers.
-
-How private subnets secure backend services.
-
-Troubleshooting security group & networking issues.
+## 📝 Additional Resources
+- [AWS VPC Documentation](https://docs.aws.amazon.com/vpc/)
+- [AWS Load Balancer Guide](https://docs.aws.amazon.com/elasticloadbalancing/)
+- [Amazon RDS MySQL Overview](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_MySQL.html)
